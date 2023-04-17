@@ -13,51 +13,9 @@ These are the allowed options you find in options.txt:
 
 the option 'browsers' controls which browser it will open in. The allowed browsers are for now:
 
-'mozilla'
-	
+'chrome'
+
 'firefox'
-	
-'netscape'
-	
-'galeon'
-	
-'epiphany'
-	
-'skipstone'
-	
-'kfmclient'
-	
-'konqueror'
-	
-'kfm'
-	
-'mosaic'
-	
-'opera'
-	
-'grail'
-	
-'links'
-	
-'elinks'
-	
-'lynx'
-	
-'w3m'
-
-'windows-default'
-
-'macosx'
-	
-'safari'
-	
-'google-chrome'
-
-'chrome'	
-
-'chromium'
-
-'chromium-browser'
 
 The option 'kahoot code' controls which kahoot code it will go to, example:
 
