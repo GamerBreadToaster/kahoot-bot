@@ -4,6 +4,8 @@ A simple kahoot bot that uses your chrome browser to infiltrate games
 # How it works, IMPORTANT!
 It is important to read how the program works.
 
+IT CAN BE RAM HEAVY
+
 The program opens a REAL tab in your chosen browser, simulates keyboard presses and inputs your chosen name.
 
 The program opens a tab you have chosen in the 'amount of bots' option in the options.txt file.
