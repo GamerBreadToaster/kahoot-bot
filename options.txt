@@ -1,0 +1,8 @@
+kahoot code:
+694200
+
+name:
+default
+
+amount of bots:
+1
