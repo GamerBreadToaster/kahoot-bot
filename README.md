@@ -1,7 +1,7 @@
 # Kahoot-bot
 A simple kahoot bot that uses your chrome browser to infiltrate games
 
-# Working, IMPORTANT!
+# How it works, IMPORTANT!
 It is important to read how the program works.
 
 The program opens a REAL tab in your chosen browser, simulates keyboard presses and inputs your chosen name.
@@ -16,6 +16,8 @@ the option 'browsers' controls which browser it will open in. The allowed browse
 'chrome'
 
 'firefox'
+
+'edge'
 
 The option 'kahoot code' controls which kahoot code it will go to, example:
 
