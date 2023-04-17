@@ -1,11 +1,32 @@
-import webbrowser,time, keyboard as kb, mouse
+def install_and_import(package):
+    import importlib
+    try:
+        importlib.import_module(package)
+    except ImportError:
+        import pip
+        pip.main(['install', package])
+    finally:
+        globals()[package] = importlib.import_module(package)
 
-code = input("what is the kahoot code: ")
-bots = int(input("How many bots do you want to send: "))
-name = input("what name will the bot have: ")
+install_and_import('keyboard')
+import webbrowser,time, keyboard as kb, mouse, os
+os.system('cls')
 
+if os.path.isfile('options.txt') == False:
+    with open("options.txt", "w") as file:
+        file.write("kahoot code:\n000000\n\nname:\ndefault\n\namount of bots:\n5\n")
+elif os.path.isfile('options.txt'):
+    with open("options.txt", "r") as file:
+        readlines_2 = file.readlines()
+    new_readlines = [x[:-1] for x in readlines_2]
+    code = int(new_readlines[1])
+    name = new_readlines[4]
+    bots = int(new_readlines[7])
+
+#
 url = f"https://kahoot.it/?pin={code}&refer_method=link"
-chrome_path = "C:/Program Files/Google/Chrome/Application/chrome.exe --start-maximized"
+
+#
 webbrowser.get().open(url)
 time.sleep(1.5)
 kb.send("tab, tab")
