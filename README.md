@@ -11,13 +11,16 @@ The program opens a tab you have chosen in the 'amount of bots' option in the op
 # Options
 These are the allowed options you find in options.txt:
 
+## Kahoot code:
 The option 'kahoot code' controls which kahoot code it will go to, example:
 
 719330
 
+## Name
 The option 'name' will control the name the kahoot bot has.
 If the name is for example 'bot', the first bot will be named 'bot' and the second will be named 'bot2' etc.
 
+## Amount of bots
 the option 'amount of bots' will control how many bots it will send and how many tabs will be opened.
 With an free account the max amount of players in a lobby is 10 or 40.
 With my testing some of the accounts won't join, so I recommend a couple more than the max.
@@ -26,3 +29,7 @@ With my testing some of the accounts won't join, so I recommend a couple more th
 This kahoot bot uses the chrome browser and simulates keyboard presses. Any interferance by the user will possibly break the program.
 
 I am not responsable for anything this program causes.
+
+# Thank you
+Thank you for using my program, If you have any feedback dm me on discord to: GamerBreadToaster#2401
+Thank you.
