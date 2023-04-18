@@ -30,7 +30,7 @@ With my testing some of the accounts won't join, so I recommend a couple more th
 # Warning!
 This kahoot bot uses the chrome browser and simulates keyboard presses. Any interferance by the user will possibly break the program.
 
-I am not responsable for anything this program causes.
+Use at your own risk, or something
 
 # Todo:
 * make the duplicate delay work
