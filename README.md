@@ -32,6 +32,10 @@ This kahoot bot uses the chrome browser and simulates keyboard presses. Any inte
 
 I am not responsable for anything this program causes.
 
+# Todo:
+* make the duplicate delay work
+* add an keybind to stop the process
+
 # Thank you
 Thank you for using my program, If you have any feedback dm me on discord to: GamerBreadToaster#2401
 
