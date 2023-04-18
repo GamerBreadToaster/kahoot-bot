@@ -6,3 +6,6 @@ default
 
 amount of bots:
 1
+
+duplicate delay by:
+1
