@@ -1,3 +1,6 @@
+# made by GamerBreadToaster
+# https://github.com/GamerBreadToaster/kahoot-bot
+
 import webbrowser, time, keyboard as kb, mouse, os
 os.system('cls')
 
@@ -11,24 +14,25 @@ elif os.path.isfile('options.txt'):
     code = int(new_readlines[1])
     name = new_readlines[4]
     bots = int(new_readlines[7])
+    delay = int(new_readlines[10])
 
 #
 url = f"https://kahoot.it/?pin={code}&refer_method=link"
 
 #
 webbrowser.get().open(url)
-time.sleep(1.5)
+time.sleep(1.5 * delay)
 kb.send("tab, tab")
 kb.write(name)
 kb.send("enter")
-time.sleep(2)
+time.sleep(2 * delay)
 
 if bots > 1:
     for i in range(bots - 1):
         webbrowser.get().open(url)
-        time.sleep(0.2)
+        time.sleep(0.2 * delay)
         mouse.click('left')
-        time.sleep(1.1)
+        time.sleep(1.1 * delay)
         kb.send("tab, tab")
         kb.write((name + str(i+2)))
         kb.send("enter")
