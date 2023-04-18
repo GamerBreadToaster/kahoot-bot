@@ -1,20 +1,9 @@
-def install_and_import(package):
-    import importlib
-    try:
-        importlib.import_module(package)
-    except ImportError:
-        import pip
-        pip.main(['install', package])
-    finally:
-        globals()[package] = importlib.import_module(package)
-
-install_and_import('keyboard')
-import webbrowser,time, keyboard as kb, mouse, os
+import webbrowser, time, keyboard as kb, mouse, os
 os.system('cls')
 
 if os.path.isfile('options.txt') == False:
     with open("options.txt", "w") as file:
-        file.write("kahoot code:\n000000\n\nname:\ndefault\n\namount of bots:\n5\n")
+        file.write("kahoot code:\n000000\n\nname:\ndefault\n\namount of bots:\n5\nduplicate delay by:\n1\n")
 elif os.path.isfile('options.txt'):
     with open("options.txt", "r") as file:
         readlines_2 = file.readlines()
